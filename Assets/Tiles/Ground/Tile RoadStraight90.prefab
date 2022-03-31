@@ -29,7 +29,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6115403217246349552, guid: 6dc7f0af5b2e1be4b8f087cc04e05319, type: 3}
       propertyPath: m_Name
-      value: Tile RoadStraight90
+      value: (3, 1)
       objectReference: {fileID: 0}
     - target: {fileID: 6115403217246349567, guid: 6dc7f0af5b2e1be4b8f087cc04e05319, type: 3}
       propertyPath: m_RootOrder
@@ -45,7 +45,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6115403217246349567, guid: 6dc7f0af5b2e1be4b8f087cc04e05319, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -10
       objectReference: {fileID: 0}
     - target: {fileID: 6115403217246349567, guid: 6dc7f0af5b2e1be4b8f087cc04e05319, type: 3}
       propertyPath: m_LocalRotation.w
@@ -53,15 +53,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6115403217246349567, guid: 6dc7f0af5b2e1be4b8f087cc04e05319, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 6115403217246349567, guid: 6dc7f0af5b2e1be4b8f087cc04e05319, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 6115403217246349567, guid: 6dc7f0af5b2e1be4b8f087cc04e05319, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 6115403217246349567, guid: 6dc7f0af5b2e1be4b8f087cc04e05319, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -74,6 +74,22 @@ PrefabInstance:
     - target: {fileID: 6115403217246349567, guid: 6dc7f0af5b2e1be4b8f087cc04e05319, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7021464916229414002, guid: 6dc7f0af5b2e1be4b8f087cc04e05319, type: 3}
+      propertyPath: m_text
+      value: (3,1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7021464916229414002, guid: 6dc7f0af5b2e1be4b8f087cc04e05319, type: 3}
+      propertyPath: m_fontColor.b
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7021464916229414002, guid: 6dc7f0af5b2e1be4b8f087cc04e05319, type: 3}
+      propertyPath: m_fontColor.g
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7021464916229414002, guid: 6dc7f0af5b2e1be4b8f087cc04e05319, type: 3}
+      propertyPath: m_fontColor.r
+      value: 0.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6dc7f0af5b2e1be4b8f087cc04e05319, type: 3}

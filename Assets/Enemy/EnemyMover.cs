@@ -2,27 +2,44 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(Enemy))]
 public class EnemyMover : MonoBehaviour
 {
     [SerializeField] List<Waypoint> path = new List<Waypoint>();
     [SerializeField][Range(0f, 5f)] float enemySpeed = 1f;
 
+    [Tooltip("Adds amount of speed to enemySpeed to get stronger enemies on further waves")]
+    [SerializeField] float difficultySpeed = 0.5f;
+
+    Enemy enemy;
+
     void OnEnable()
     {
         FindPath();
         ReturnToStart();
+        GetFasterEnemies();
         StartCoroutine(FollowPath());
+    }
+
+    void Start()
+    {
+        enemy = GetComponent<Enemy>();
     }
 
     void FindPath()
     {
         path.Clear();
 
-        GameObject[] waypoints = GameObject.FindGameObjectsWithTag("Path");
+        GameObject parent = GameObject.FindGameObjectWithTag("Path");
 
-        foreach (GameObject waypoint in waypoints)
+        foreach (Transform child in parent.transform)
         {
-            path.Add(waypoint.GetComponent<Waypoint>());
+            Waypoint waypoint = child.GetComponent<Waypoint>();
+
+            if (waypoint != null)
+            {
+                path.Add(waypoint);
+            }
         }
     }
 
@@ -48,7 +65,18 @@ public class EnemyMover : MonoBehaviour
                 yield return new WaitForEndOfFrame();
             }
         }
+        FinishPath();
+    }
+
+    void FinishPath()
+    {
+        enemy.StealGold();
         gameObject.SetActive(false);
+    }
+
+    void GetFasterEnemies()
+    {
+        enemySpeed += difficultySpeed;
     }
 
 }

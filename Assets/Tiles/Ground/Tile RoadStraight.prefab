@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &2319130905595560833
+--- !u!1001 &1720026257436769359
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -14,14 +14,14 @@ PrefabInstance:
     - target: {fileID: 2894842778458432599, guid: cc114a5ca36b11b40b049577ad203a49, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: -2432090755550338912, guid: 626410dc07212d749823da2540a223bb, type: 3}
+      objectReference: {fileID: -2432090755550338912, guid: e618ab8e55a3ed942a408f4d1b7f896e, type: 3}
     - target: {fileID: 4828004038499046576, guid: cc114a5ca36b11b40b049577ad203a49, type: 3}
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4828004038499046576, guid: cc114a5ca36b11b40b049577ad203a49, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 4828004038499046576, guid: cc114a5ca36b11b40b049577ad203a49, type: 3}
       propertyPath: m_LocalPosition.y
@@ -29,7 +29,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4828004038499046576, guid: cc114a5ca36b11b40b049577ad203a49, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 4828004038499046576, guid: cc114a5ca36b11b40b049577ad203a49, type: 3}
       propertyPath: m_LocalRotation.w
@@ -37,15 +37,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4828004038499046576, guid: cc114a5ca36b11b40b049577ad203a49, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4828004038499046576, guid: cc114a5ca36b11b40b049577ad203a49, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4828004038499046576, guid: cc114a5ca36b11b40b049577ad203a49, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4828004038499046576, guid: cc114a5ca36b11b40b049577ad203a49, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -61,7 +61,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4828004038499046591, guid: cc114a5ca36b11b40b049577ad203a49, type: 3}
       propertyPath: m_Name
-      value: Tile RoadCorner
+      value: (5, 3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8552199246775066685, guid: cc114a5ca36b11b40b049577ad203a49, type: 3}
+      propertyPath: m_text
+      value: (5,3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8552199246775066685, guid: cc114a5ca36b11b40b049577ad203a49, type: 3}
+      propertyPath: m_fontColor.b
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8552199246775066685, guid: cc114a5ca36b11b40b049577ad203a49, type: 3}
+      propertyPath: m_fontColor.g
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8552199246775066685, guid: cc114a5ca36b11b40b049577ad203a49, type: 3}
+      propertyPath: m_fontColor.r
+      value: 0.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cc114a5ca36b11b40b049577ad203a49, type: 3}
