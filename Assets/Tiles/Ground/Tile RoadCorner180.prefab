@@ -7,6 +7,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 254907231113878090, guid: 1cf5bcae2e60f0b4b9e34bbc43a5c48c, type: 3}
+      propertyPath: isPlaceable
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2365680847079333532, guid: 1cf5bcae2e60f0b4b9e34bbc43a5c48c, type: 3}
       propertyPath: m_LocalRotation.w
       value: 0
@@ -89,7 +93,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7147126102346192702, guid: 1cf5bcae2e60f0b4b9e34bbc43a5c48c, type: 3}
       propertyPath: m_Name
-      value: (5, 4)
+      value: Tile RoadCorner180
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1cf5bcae2e60f0b4b9e34bbc43a5c48c, type: 3}
